@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Retro Vault - Air Jordan</title>
+    <link rel="icon" type="image/png" href="../images/retrovaultlogo(1).png">
+    <link rel="stylesheet" href="../css/airjordans.css">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/0e0ec51002.js" crossorigin="anonymous"></script>
+    <div class="scroll-watcher"></div>
+    <div class="top">
+        <div class="header">
+            <a href="../index.html"><img class="logo" src="../images/retrovaulttextfinal.jpg" ></a>
+        </div>
+
+        <div class="topnav" id="myTopnav">
+            <div class="dropdown">
+              <button class="dropbtn">SHOES 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="./airjordans.html">Air Jordans</a>
+                <a href="#" >Nike</a>
+                <a href="./vans.html">Vans</a>
+                <a href="#" >Adidas Originals</a>
+                <a href="#" >Yeezy</a>
+                <a href="#" >Converse</a>
+                <a href="./crocs.html">Crocs</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+                <button class="dropbtn">STREET WEAR 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Oversized T-Shirts</a>
+                  <a href="#" >Shirts</a>
+                  <a href="#" >Hoodies</a>
+                  <a href="#">Corgos</a>
+                </div>
+            </div> 
+            <a href="#">ACCESSORIES</a>
+            <a href="#">KEY CHAINS</a>
+            <a href="#">JEWELLERY</a>
+            <a href="#">SHOE CARE</a>
+            <a href="./brands.html">BRANDS</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+            <div class="search-container">
+                  <input type="text" placeholder="Search." name="search">
+                  <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+              </div>
+          </div>
+        </div> 
+
+        <!-- <div class="navbar">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn" id="shoes">SHOES<i class="fa fa-caret-down" style="color: aliceblue;"></i></button>
+                <div class="dropdown-content">
+                    <a href="http://127.0.0.1:5500/airjordans.html" >Air Jordan</a>
+                    <a href="http://127.0.0.1:5500/nike.html" >Nike</a>
+                    <a href="http://127.0.0.1:5500/yeezy.html" >Yeezy</a>
+                    <a href="http://127.0.0.1:5500/nike.html" >Adidas Originals</a>
+                    <a href="http://127.0.0.1:5500/vans.html" >Vans</a>
+                    <a href="http://127.0.0.1:5500/nike.html" >Converse</a>
+                    <a href="http://127.0.0.1:5500/crocs.html" >Crocs</a>
+                </div>
+            </div> 
+            <div class="dropdown">
+                <button onclick="myFunctionStreetWear()" class="dropbtn">STREET WEAR
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">T-Shirts</a>
+                    <a href="#">SweatShirts & Hoodies</a>
+                    <a href="#">Bottoms</a>
+                </div>
+            </div> 
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">ACCESSORIES
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Whats's New</a>
+                    <a href="#">Bags</a>
+                    <a href="#">Eyewear</a>
+                    <a href="#">Laces</a>
+                    <a href="#">Jewellery</a>
+                    <a href="#">Socks</a>
+                </div>
+            </div> 
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">KEY  CHAINS
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunctionBrands()" class="dropbtn">BRANDS
+            </div>  
+        </div>
+    </div> -->
+
+    <!-- <div class="header2">
+        <div class="sorter">
+            <span>Sort BY</span>
+        </div>
+        <div class="filters">
+            <span>FILTERS</span>
+        </div>
+    </div> -->
+    <img src="../images/sneakers/jordans.png" class="jordanlogo">
+    <div class="topvideos">
+        <video autoplay muted loop class="jordanvideol">
+            <source src="../images/jordansvideol.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted loop class="jordanvideom">
+            <source src="../images/jordansvideom.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted loop class="jordanvideor">
+            <source src="../images/jordanvideor2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <h1 class="brandname">JORDANS</h1>
+    <p class="brandintro">Introduced by Nike and taking flight in 1984 with a slam dunk, this iconic brand soared beyond the basketball court, becoming a cultural phenomenon that transcends sport, blending athleticism with style in the legendary shadow of Michael Jordan.</p>
+
+    <div class="allfilters">
+        <div class="shoesize">
+            <button onclick="shoesizefun()" class="sizebtn">Shoe Size(UK)
+                <i class="arrow down"></i>
+            </button>
+            <div id="myshoesize" class="sizes">
+                <a href="#">4</a>
+                <a href="#">4.5</a>
+                <a href="#">5</a>
+                <a href="#">5.5</a>
+                <a href="#">6</a>
+                <a href="#">6.5</a>
+                <a href="#">7</a>
+                <a href="#">7.5</a>
+                <a href="#">8</a>
+                <a href="#">8.5</a>
+                <a href="#">9</a>
+                <a href="#">9.5</a>
+                <a href="#">10</a>
+                <a href="#">11</a>
+                <a href="#">12</a>
+            </div>
+        </div>
+
+        <!-- <div class="apparelsize">
+            <button onclick="apparelsizefun()" class="apparelsizebtn">Apparel Size
+                <i class="arrow down"></i>
+            </button>
+            <div id="myapparelsize" class="asizes">
+                <a href="#">XS</a>
+                <a href="#">S</a>
+                <a href="#">M</a>
+                <a href="#">L</a>
+                <a href="#">2XL</a>
+                <a href="#">3XL</a>
+            </div>
+        </div> -->
+    </div>
+    <div class="main" style="background-color: #f5f5f7;">
+        <div class="page" style="background-color: #f5f5f7;">
+
+            <div class="product">
+                <figure>
+                    <div class="ajshoe">
+                        <img src="../images/sneakers/aj3light-oreeood2.png" class="img-back">
+                        <img src="../images/sneakers/aj3light-oreeood.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 3 RETRO 'LIGHT OREWOOD BROWN/METALLIC GOLD'</p>
+                        <p id="jordan">&#8377;19,295.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe">
+                        <img src="../images/sneakers/aj3night-staduim2.png" class="img-back">
+                        <img src="../images/sneakers/aj3night-staduim.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 3 RETRO 'NIGHT STADIUM/TOTAL ORANGE-BLACK'</p>
+                        <p id="jordan">&#8377;19,295.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe">
+                        <img src="../images/sneakers/aj5midnight-navy2 (2).png" class="img-back">
+                        <img src="../images/sneakers/aj5midnight-navy.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 5 RETRO SE 'MIDNIGHT NAVY/BLACK-FOOTBALL GREY'</p>
+                        <p id="jordan">&#8377;19,295.00</p>
+                    </div>
+                </figure>
+            </div>
+
+            
+            <div class="product">
+                <figure>
+                    <div class="ajshoe">
+                        
+                        <img src="../images/sneakers/aj5light-oreeood2.png" class="img-back">
+                        <img src="../images/sneakers/aj5light-oreeood.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 5 RETRO SE CRAFT 'LIGHT OREWOOD BROWN/SAFETY ORANGE-FLAT PEWTER'</p>
+                        <p id="jordan">&#8377;19,295.00</p>
+                    </div>
+                </figure>
+            </div>
+
+            <img src="../images/historyofjordans.jpeg" class="hoj">
+            <img src="../images/mjsign-removebg-preview.png" class="mjsign">
+            
+
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj16back.png" class="img-back">
+                        <img src="../images/sneakers/aj16front.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 1 MID SE 'WHITE/LOBSTER-DUNE RED-SAIL'</p>
+                        <p id="jordan">&#8377;12,295.00</p>
+                    </div>
+                </figure>
+            </div>
+
+            <img src="../images/mj.jpeg" class="mjposter" >
+            <div class="product">
+                <figure>
+                    <div class="ajshoe">
+                        
+                        <img src="../images/sneakers/aj3white-metallic2(2).png" class="img-back">
+                        <img src="../images/sneakers/aj3white-metallic(2).png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 3 RETRO 'WHITE/METALLIC COPPER-TRUE BLUE'</p>
+                        <p id="jordan">&#8377;19,295.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj14back.png" class="img-back">
+                        <img src="../images/sneakers/aj14front.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 3 RETRO 'WHITE/VARSITY RED-LUCKY GREEN'</p>
+                        <p id="jordan">&#8377;16,595.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj15.png" class="img-back">
+                        <!-- <img src="./images/sneakers/aj13front.png" class="img-front"> -->
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 3 RETRO (GS) 'WHITE/BLACK-IRON-LIGHT ASH GREY'</p>
+                        <p id="jordan">&#8377;10,995.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj3navy-cement2.png" class="img-back">
+                        <img src="../images/sneakers/aj3navy-cement.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 3 RETRO 'WHITE/MIDNIGHT NAVY-CEMENT GREY-BLACK'</p>
+                        <p id="jordan">&#8377;19,295.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj6concord-aquatone2.png" class="img-back">
+                        <img src="../images/sneakers/aj6concord-aquatone.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 6 RETRO 'BLACK/BRIGHT CONCORD-AQUATONE'</p>
+                        <p id="jordan">&#8377;18,395.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj6ochre-black2.png" class="img-back">
+                        <img src="../images/sneakers/aj6ochre-black.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 6 RETRO 'WHITE/YELLOW OCHRE-BLACK'</p>
+                        <p id="jordan">&#8377;18,395.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj7whitecrimson-black2.png" class="img-back">
+                        <img src="../images/sneakers/aj7whitecrimson-black.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 7 RETRO 'WHITE/CRIMSON-BLACK'</p>
+                        <p id="jordan">&#8377;19,295.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj8black-true-redwhite2.png" class="img-back">
+                        <img src="../images/sneakers/aj8black-true-redwhite.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 3 RETRO 'WHITE/METALLIC COPPER-TRUE BLUE'</p>
+                        <p id="jordan">&#8377;19,295.00</p>
+                    </div>
+                </figure>
+            </div>
+
+            <img src="../images/Untitled design.gif" style="width: 110%; margin-left: -50px; border-top: 10px solid rgb(247, 52, 52); border-bottom: 10px solid rgb(247, 52, 52);">
+
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj12back.png" class="img-back">
+                        <img src="../images/sneakers/aj12front.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 1 HIGH OG (GS) 'BLACK/WHITE-WHITE'</p>
+                        <p id="jordan">&#8377;10,295.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj4khaki2.png" class="img-back">
+                        <img src="../images/sneakers/aj4khaki.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 4 RETRO SE CRAFT 'MEDIUM OLIVE/PALE VANILLA-CARGO KHAKI'</p>
+                        <p id="jordan">&#8377;19,295.00</p>
+                    </div>
+                </figure>
+            </div>
+            
+            
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj13back.png" class="img-back">
+                        <img src="../images/sneakers/aj13front.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 1 RETRO HIGH OG 'YELLOW OCHRE/BLACK-SAIL'</p>
+                        <p id="jordan">&#8377;16,995.00</p>
+                    </div>
+                </figure>
+            </div>
+            
+
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj18back.png" class="img-back">
+                        <img src="../images/sneakers/aj18front.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 1 RETRO LOW OG 'BLACK/MUSLIN-TECH GREY-WHITE'</p>
+                        <p id="jordan">&#8377;12,795.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <img src="../images/sneakers/aj17back.png" class="img-back">
+                        <img src="../images/sneakers/aj17front.png" class="img-front">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>AIR JORDAN 1 LOW SE 'WHITE/DUNE RED-LOBSTER-SAIL'</p>
+                        <p id="jordan">&#8377;10,295.00</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <!-- <img src="./images/sneakers/aj17back.png" class="img-back"> -->
+                        <img src="../images/sneakers/aj19front.png" class="img-back">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>JORDAN 1 LOW FRAGMENT DESIGN X TRAVIS SCOTT</p>
+                        <p id="jordan">&#8377;185,000.00</p>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="product">
+                <figure>
+                    <div class="ajshoe"> 
+                        <!-- <img src="./images/sneakers/aj17back.png" class="img-back"> -->
+                        <img src="../images/sneakers/aj20front-removebg-preview.png" class="img-back">
+                    </div>
+                    <div class="figcap">
+                        <p id="jordan">JORDAN</p>
+                        <p>JORDAN 1 RETRO HIGH TRAVIS SCOTT</p>
+                        <p id="jordan">&#8377;175,000.00</p>
+                    </div>
+                </figure>
+            </div>
+            
+
+            
+
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        function shoesizefun() {
+        document.getElementById("myshoesize").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.sizebtn')) {
+                var dropdowns = document.getElementsByClassName("sizes");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+        // function apparelsizefun() {
+        // document.getElementById("myapparelsize").classList.toggle("show");
+        // }
+
+        // // Close the dropdown if the user clicks outside of it
+        // window.onclick = function(event) {
+        //     if (!event.target.matches('.apparelsizebtn')) {
+        //         var dropdowns = document.getElementsByClassName("asizes");
+        //         var i;
+        //         for (i = 0; i < dropdowns.length; i++) {
+        //             var openDropdown = dropdowns[i];
+        //             if (openDropdown.classList.contains('show')) {
+        //                 openDropdown.classList.remove('show');
+        //             }
+        //         }
+        //     }
+        // }
+    </script>
+
+</body>
+</html>
